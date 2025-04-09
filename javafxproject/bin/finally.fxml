@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FinallyController">
+   <children>
+      <Text fx:id="message" layoutX="13.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Désolé mais vous ne pouvez pas commender cet article car il a été declarer volé . Si vous avez des informations succeptibles de pouvoir aider , veuillez contacter le 692321456" textAlignment="JUSTIFY" wrappingWidth="573.9109497070312">
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font>
+      </Text>
+      <Button fx:id="cherchezapp" layoutX="22.0" layoutY="170.0" mnemonicParsing="false" onAction="#cherchezapp" prefHeight="36.0" prefWidth="226.0" text="Retourner a la recherche d'appareil" />
+      <Button fx:id="menu" layoutX="397.0" layoutY="170.0" mnemonicParsing="false" onAction="#retourmenu" prefHeight="36.0" prefWidth="166.0" text="Retourner au menu" />
+   </children>
+</AnchorPane>

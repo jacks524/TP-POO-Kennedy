@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2e90c4;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ConfirmationController">
+   <children>
+      <Label fx:id="nom" layoutX="362.0" layoutY="115.0" prefHeight="49.0" prefWidth="194.0" style="-fx-background-color: white;" />
+      <Label fx:id="type" layoutX="362.0" layoutY="193.0" prefHeight="49.0" prefWidth="194.0" style="-fx-background-color: white;" />
+      <Label fx:id="serie" layoutX="362.0" layoutY="271.0" prefHeight="49.0" prefWidth="194.0" style="-fx-background-color: white;" />
+      <ImageView fitHeight="406.0" fitWidth="293.0" layoutX="1.0" layoutY="-1.0">
+         <image>
+            <Image url="@../../../../Downloads/ChatGPT%20Image%208%20avr.%202025,%2022_41_23.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="commande" layoutX="362.0" layoutY="342.0" mnemonicParsing="false" onAction="#commande" prefHeight="26.0" prefWidth="194.0" text="commander un autre appareil" />
+      <Text fx:id="text" layoutX="362.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Felicitation vous venez d efectuer une commande dans notre boutique.Au plaisir de vous revoir " wrappingWidth="194.39999999999986">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <ImageView fitHeight="33.0" fitWidth="38.0" layoutX="507.0" layoutY="73.0">
+         <image>
+            <Image url="@../../../../Downloads/grinning-face-with-smiling-eyes-emoji-1024x986-cf8ak9gz.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
